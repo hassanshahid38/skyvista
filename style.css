@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(245, 181, 34);
+  margin: 0;
+  padding: 0;
+margin-top: 5%;
+    height: 200vh;
+  
+}
+.container{
+  background-color: rgb(253, 199, 28);
+  
+  height: 1050px;
+  width: 70%;
+margin: auto; 
+padding: 20px;
+border-radius: 10px;
+box-shadow: 10px 10px 10px #2C3345;
+}
+.radio{
+  color: inherit;
+color: #2C3345;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.input1{
+  color: #2C3345;
+  display: block;
+  padding-top: 10%;
+}
+.input2{
+  color: #2C3345;
+  display: block;
+  padding-top: 1%;
+  align-items: center;
+}
+.input3{
+  color: #2C3345;
+  display: block;
+  align-items: center;
+}
+
+
+.button-52 {
+
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color:  rgb(245, 181, 34);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: rgba(245, 181, 34,0.1) ;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
